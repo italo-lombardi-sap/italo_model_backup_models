@@ -1,0 +1,89 @@
+{
+  "objectType" : "DIMENSION",
+  "objectId" : "DIMENSION:t.VUSRDV.C9eov3pf8t77lloaboi0m6ko275:Product",
+  "isEmbedded" : false,
+  "content" : {
+    "id" : "t.VUSRDV.C9eov3pf8t77lloaboi0m6ko275:Product",
+    "type" : "Generic",
+    "mode" : "standalone",
+    "isLocal" : true,
+    "packageName" : "t.VUSRDV.C9eov3pf8t77lloaboi0m6ko275",
+    "capability" : {
+      "simpleColumnNames" : true,
+      "replicatedMemberPropertiesReadOnly" : false,
+      "addNonReplicatedMembers" : true,
+      "dacHideParents" : false,
+      "parentCubeHasDatasetSource" : false,
+      "multiLangBackendEnabled" : true,
+      "multiLangEnabled" : false,
+      "showOrphans" : false,
+      "enableLevelBasedHierarchyOrphans" : false,
+      "exposeMdsAggregation" : true,
+      "writeDACView" : false
+    },
+    "description" : "Product",
+    "properties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "Member ID",
+      "descriptions" : {
+        "en" : "Member ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : true,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "hierarchies" : [ ],
+    "memberCount" : 2,
+    "lastUpdated" : "2024-10-15T15:39:44.214Z",
+    "status" : "valid",
+    "dacEnabled" : false,
+    "restNode" : "",
+    "repositoryId" : null,
+    "translation" : {
+      "enabled" : false,
+      "status" : "NOT_TRANSLATED",
+      "originalLanguage" : "en",
+      "languages" : [ ]
+    },
+    "schemaName" : "TENANT_VUSRDV",
+    "descriptions" : {
+      "en" : "Product"
+    },
+    "name" : "Product",
+    "dimensionId" : "Product",
+    "masterDataTableName" : "t.VUSRDV.C9eov3pf8t77lloaboi0m6ko275::MSTR_Product",
+    "textTableName" : "t.VUSRDV.C9eov3pf8t77lloaboi0m6ko275::TEXT_Product",
+    "hierarchyCount" : 0,
+    "propertyCount" : 1,
+    "idProperties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "Member ID",
+      "descriptions" : {
+        "en" : "Member ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 256,
+      "isMandatory" : true,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "isUsedInModel" : true,
+    "isSample" : false,
+    "isTemporary" : false
+  },
+  "status" : { }
+}

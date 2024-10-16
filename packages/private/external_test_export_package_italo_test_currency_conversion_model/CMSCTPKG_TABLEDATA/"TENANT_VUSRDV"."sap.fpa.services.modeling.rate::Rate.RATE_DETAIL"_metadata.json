@@ -1,0 +1,103 @@
+{
+  "contentDataTableInfo" : {
+    "tableName" : "\"TENANT_VUSRDV\".\"sap.fpa.services.modeling.rate::Rate.RATE_DETAIL\"",
+    "isEmptyBeforeImport" : true,
+    "whereFilter" : "RATE = 't.1:TestItalo'",
+    "isFPATable" : false,
+    "columnsHasTenantId" : [ ],
+    "columnsHasHANAUser" : [ ],
+    "generated" : false,
+    "repositoryId" : null
+  },
+  "tableColumns" : [ "RATE", "CATEGORY", "RATE_TYPE", "RATE_VERSION", "FROM_CURR", "TO_CURR", "VALID_FROM", "RATE_VALUE" ],
+  "tableColumnsMetadata" : [ {
+    "columnName" : "RATE",
+    "position" : 1,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 24,
+    "length" : 400,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : ""
+  }, {
+    "columnName" : "CATEGORY",
+    "position" : 2,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 24,
+    "length" : 127,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : ""
+  }, {
+    "columnName" : "RATE_TYPE",
+    "position" : 3,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 24,
+    "length" : 127,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : ""
+  }, {
+    "columnName" : "RATE_VERSION",
+    "position" : 4,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 24,
+    "length" : 127,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : ""
+  }, {
+    "columnName" : "FROM_CURR",
+    "position" : 5,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 24,
+    "length" : 5,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : ""
+  }, {
+    "columnName" : "TO_CURR",
+    "position" : 6,
+    "dataTypeName" : "NVARCHAR",
+    "offset" : 24,
+    "length" : 5,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : ""
+  }, {
+    "columnName" : "VALID_FROM",
+    "position" : 7,
+    "dataTypeName" : "DATE",
+    "offset" : 4,
+    "length" : 10,
+    "scale" : null,
+    "isNullable" : false,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : ""
+  }, {
+    "columnName" : "RATE_VALUE",
+    "position" : 8,
+    "dataTypeName" : "DECIMAL",
+    "offset" : 8,
+    "length" : 31,
+    "scale" : 15,
+    "isNullable" : true,
+    "defaultValue" : "",
+    "comments" : "",
+    "csDataTypeName" : ""
+  } ],
+  "recordCount" : 20
+}

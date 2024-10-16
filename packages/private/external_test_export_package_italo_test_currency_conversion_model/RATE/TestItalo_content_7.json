@@ -1,0 +1,19 @@
+{
+  "objectType" : "RATE",
+  "objectId" : "RATE:t.1:TestItalo",
+  "isEmbedded" : false,
+  "content" : {
+    "id" : "t.1:TestItalo",
+    "name" : "TestItalo",
+    "packageName" : "t.1",
+    "rateGroup" : "t.1:TestItalo",
+    "repositoryId" : null,
+    "descriptions" : {
+      "E" : "TestDescription"
+    },
+    "description" : "TestDescription",
+    "isSample" : false,
+    "isTemporary" : false
+  },
+  "status" : { }
+}

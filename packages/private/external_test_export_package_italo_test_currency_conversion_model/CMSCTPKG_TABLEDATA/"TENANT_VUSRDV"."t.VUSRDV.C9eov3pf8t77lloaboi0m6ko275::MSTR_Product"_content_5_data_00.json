@@ -1,0 +1,29 @@
+{
+  "metadata" : {
+    "contentDataTableInfo" : {
+      "tableName" : "\"TENANT_VUSRDV\".\"t.VUSRDV.C9eov3pf8t77lloaboi0m6ko275::MSTR_Product\"",
+      "isEmptyBeforeImport" : true,
+      "whereFilter" : "",
+      "isFPATable" : false,
+      "columnsHasTenantId" : [ ],
+      "columnsHasHANAUser" : [ ],
+      "generated" : false,
+      "repositoryId" : null,
+      "dataProcName" : ""
+    },
+    "tableColumns" : [ "ID" ],
+    "tableColumnsMetadata" : [ {
+      "columnName" : "ID",
+      "position" : 1,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 8,
+      "length" : 256,
+      "scale" : null,
+      "isNullable" : false,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : ""
+    } ]
+  },
+  "content" : [ [ "#" ], [ "TX-100" ] ]
+}

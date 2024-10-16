@@ -1,0 +1,73 @@
+{
+  "metadata" : {
+    "contentDataTableInfo" : {
+      "tableName" : "\"TENANT_VUSRDV\".\"t.VUSRDV.C9eov3pf8t77lloaboi0m6ko275::TRNS_C9eov3pf8t77lloaboi0m6ko275\"",
+      "isEmptyBeforeImport" : true,
+      "whereFilter" : "",
+      "isFPATable" : false,
+      "columnsHasTenantId" : [ ],
+      "columnsHasHANAUser" : [ ],
+      "generated" : false,
+      "repositoryId" : null,
+      "dataProcName" : ""
+    },
+    "tableColumns" : [ "Product.ID", "Version.ID", "Profit_EUR", "_Package_", "Date.CALMONTH" ],
+    "tableColumnsMetadata" : [ {
+      "columnName" : "Product.ID",
+      "position" : 1,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 16,
+      "length" : 256,
+      "scale" : null,
+      "isNullable" : true,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : ""
+    }, {
+      "columnName" : "Version.ID",
+      "position" : 2,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 16,
+      "length" : 300,
+      "scale" : null,
+      "isNullable" : true,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : ""
+    }, {
+      "columnName" : "Profit_EUR",
+      "position" : 3,
+      "dataTypeName" : "DECIMAL",
+      "offset" : 1,
+      "length" : 31,
+      "scale" : 2,
+      "isNullable" : true,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : ""
+    }, {
+      "columnName" : "_Package_",
+      "position" : 4,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 16,
+      "length" : 265,
+      "scale" : null,
+      "isNullable" : true,
+      "defaultValue" : "UNUSED",
+      "comments" : "",
+      "csDataTypeName" : ""
+    }, {
+      "columnName" : "Date.CALMONTH",
+      "position" : 5,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 16,
+      "length" : 6,
+      "scale" : null,
+      "isNullable" : true,
+      "defaultValue" : "202401",
+      "comments" : "",
+      "csDataTypeName" : ""
+    } ]
+  },
+  "content" : [ [ "TX-100", "public.Actual", "1.00", "UNUSED", "202401" ] ]
+}

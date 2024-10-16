@@ -1,0 +1,106 @@
+{
+  "metadata" : {
+    "contentDataTableInfo" : {
+      "tableName" : "\"TENANT_VUSRDV\".\"sap.fpa.services.modeling.rate::Rate.RATE_DETAIL\"",
+      "isEmptyBeforeImport" : true,
+      "whereFilter" : "RATE = 't.1:TestItalo'",
+      "isFPATable" : false,
+      "columnsHasTenantId" : [ ],
+      "columnsHasHANAUser" : [ ],
+      "generated" : false,
+      "repositoryId" : null,
+      "dataProcName" : ""
+    },
+    "tableColumns" : [ "RATE", "CATEGORY", "RATE_TYPE", "RATE_VERSION", "FROM_CURR", "TO_CURR", "VALID_FROM", "RATE_VALUE" ],
+    "tableColumnsMetadata" : [ {
+      "columnName" : "RATE",
+      "position" : 1,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 24,
+      "length" : 400,
+      "scale" : null,
+      "isNullable" : false,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : ""
+    }, {
+      "columnName" : "CATEGORY",
+      "position" : 2,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 24,
+      "length" : 127,
+      "scale" : null,
+      "isNullable" : false,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : ""
+    }, {
+      "columnName" : "RATE_TYPE",
+      "position" : 3,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 24,
+      "length" : 127,
+      "scale" : null,
+      "isNullable" : false,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : ""
+    }, {
+      "columnName" : "RATE_VERSION",
+      "position" : 4,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 24,
+      "length" : 127,
+      "scale" : null,
+      "isNullable" : false,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : ""
+    }, {
+      "columnName" : "FROM_CURR",
+      "position" : 5,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 24,
+      "length" : 5,
+      "scale" : null,
+      "isNullable" : false,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : ""
+    }, {
+      "columnName" : "TO_CURR",
+      "position" : 6,
+      "dataTypeName" : "NVARCHAR",
+      "offset" : 24,
+      "length" : 5,
+      "scale" : null,
+      "isNullable" : false,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : ""
+    }, {
+      "columnName" : "VALID_FROM",
+      "position" : 7,
+      "dataTypeName" : "DATE",
+      "offset" : 4,
+      "length" : 10,
+      "scale" : null,
+      "isNullable" : false,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : ""
+    }, {
+      "columnName" : "RATE_VALUE",
+      "position" : 8,
+      "dataTypeName" : "DECIMAL",
+      "offset" : 8,
+      "length" : 31,
+      "scale" : 15,
+      "isNullable" : true,
+      "defaultValue" : "",
+      "comments" : "",
+      "csDataTypeName" : ""
+    } ]
+  },
+  "content" : [ [ "t.1:TestItalo", "Actuals", "", "", "YEN", "RUB", "2023-07-10", "2.000000000000000" ], [ "t.1:TestItalo", "", "Average", "", "yen", "rub", "2023-07-10", "1.000000000000000" ], [ "t.1:TestItalo", "", "", "", "EUR", "GBP", "2023-01-01", "5.100000000000000" ], [ "t.1:TestItalo", "", "", "", "EUR", "GBP", "2023-06-23", "0.869140000000000" ], [ "t.1:TestItalo", "", "", "", "EUR", "CAD", "2023-06-24", "1.459300000000000" ], [ "t.1:TestItalo", "", "", "", "EUR", "PLN", "2023-05-24", "4.440000000000000" ], [ "t.1:TestItalo", "", "", "", "USD", "EUR", "2023-05-24", "1.080000000000000" ], [ "t.1:TestItalo", "", "", "", "EUR", "CAD", "2023-01-01", "1.459300000000000" ], [ "t.1:TestItalo", "", "", "", "TWD", "USD", "2017-01-01", "1.200000000000000" ], [ "t.1:TestItalo", "", "", "", "USD", "EUR", "2023-05-05", "1.112000000000000" ], [ "t.1:TestItalo", "", "", "", "USD", "EUR", "2023-05-09", "1.112000000000000" ], [ "t.1:TestItalo", "", "", "", "USD", "EUR", "2023-05-06", "1.112000000000000" ], [ "t.1:TestItalo", "", "", "", "USD", "EUR", "2023-05-15", "1.112000000000000" ], [ "t.1:TestItalo", "", "", "", "EUR", "GBP", "2023-05-23", "0.869140000000000" ], [ "t.1:TestItalo", "", "", "", "EUR", "USD", "2023-05-24", "3.700000000000000" ], [ "t.1:TestItalo", "", "", "", "CAD", "USD", "2023-05-24", "1.800000000000000" ], [ "t.1:TestItalo", "", "", "", "EUR", "CAD", "2023-11-23", "3.900000000000000" ], [ "t.1:TestItalo", "", "", "", "EUR", "GBP", "2023-05-26", "2.789000000000000" ], [ "t.1:TestItalo", "", "", "", "EUR", "CAD", "2023-05-24", "3.456000000000000" ], [ "t.1:TestItalo", "Specific", "", "", "EUR", "USD", "2023-05-19", "1.340000000000000" ] ]
+}

@@ -1,0 +1,157 @@
+{
+  "objectType" : "DIMENSION",
+  "objectId" : "DIMENSION:t.VUSRDV.C9eov3pf8t77lloaboi0m6ko275:Version",
+  "isEmbedded" : false,
+  "content" : {
+    "id" : "t.VUSRDV.C9eov3pf8t77lloaboi0m6ko275:Version",
+    "type" : "VersionDim",
+    "mode" : "standalone",
+    "isLocal" : true,
+    "packageName" : "t.VUSRDV.C9eov3pf8t77lloaboi0m6ko275",
+    "capability" : {
+      "simpleColumnNames" : true,
+      "replicatedMemberPropertiesReadOnly" : false,
+      "addNonReplicatedMembers" : true,
+      "dacHideParents" : false,
+      "parentCubeHasDatasetSource" : false,
+      "multiLangBackendEnabled" : true,
+      "multiLangEnabled" : false,
+      "showOrphans" : false,
+      "enableLevelBasedHierarchyOrphans" : false,
+      "exposeMdsAggregation" : true,
+      "writeDACView" : false
+    },
+    "description" : "Version",
+    "properties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "ID",
+      "descriptions" : {
+        "en" : "ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 300,
+      "isMandatory" : true,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    }, {
+      "property" : "VERSION",
+      "propertyType" : "VERSION",
+      "description" : "Version",
+      "descriptions" : {
+        "en" : "Version"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 300,
+      "isMandatory" : true,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "VERSION"
+    }, {
+      "property" : "CATEGORY",
+      "propertyType" : "CATEGORY",
+      "description" : "Category",
+      "descriptions" : {
+        "en" : "Category"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 127,
+      "isMandatory" : true,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "CATEGORY"
+    }, {
+      "property" : "CURRENCY_CONVERSION_CATEGORY",
+      "propertyType" : "CURRENCY_CONVERSION_CATEGORY",
+      "description" : "Category for Currency Conversion",
+      "descriptions" : {
+        "en" : "Category for Currency Conversion"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 127,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "CURRENCY_CONVERSION_CATEGORY"
+    }, {
+      "property" : "RATE_VERSION",
+      "propertyType" : "RATE_VERSION",
+      "description" : "Rate Version",
+      "descriptions" : {
+        "en" : "Rate Version"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 127,
+      "isMandatory" : false,
+      "valueList" : "",
+      "isUnique" : false,
+      "descriptionProperty" : null,
+      "tableColumnName" : "RATE_VERSION"
+    } ],
+    "hierarchies" : [ ],
+    "memberCount" : 1,
+    "lastUpdated" : "2024-10-15T15:40:17.176Z",
+    "status" : "valid",
+    "dacEnabled" : false,
+    "restNode" : "",
+    "repositoryId" : null,
+    "translation" : {
+      "enabled" : false,
+      "status" : "NOT_TRANSLATED",
+      "originalLanguage" : "en",
+      "languages" : [ ]
+    },
+    "schemaName" : "TENANT_VUSRDV",
+    "descriptions" : {
+      "en" : "Version"
+    },
+    "name" : "Version",
+    "dimensionId" : "Version",
+    "masterDataTableName" : "t.VUSRDV.C9eov3pf8t77lloaboi0m6ko275::MSTR_Version",
+    "textTableName" : "t.VUSRDV.C9eov3pf8t77lloaboi0m6ko275::TEXT_Version",
+    "hierarchyCount" : 0,
+    "propertyCount" : 5,
+    "idProperties" : [ {
+      "property" : "ID",
+      "propertyType" : "ID",
+      "description" : "ID",
+      "descriptions" : {
+        "en" : "ID"
+      },
+      "sourceField" : "",
+      "semanticType" : "TEXT",
+      "dataTypeName" : "NVARCHAR",
+      "scale" : 0,
+      "length" : 300,
+      "isMandatory" : true,
+      "valueList" : "",
+      "isUnique" : true,
+      "descriptionProperty" : null,
+      "tableColumnName" : "ID"
+    } ],
+    "isUsedInModel" : true,
+    "isSample" : false,
+    "isTemporary" : false
+  },
+  "status" : { }
+}
